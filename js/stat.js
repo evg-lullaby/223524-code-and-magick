@@ -1,3 +1,5 @@
+'use strict';
+
 window.renderStatistics = function (ctx, names, times) {
   var drawBackground = function (x, y, width, height) {
     var offset = 15;
